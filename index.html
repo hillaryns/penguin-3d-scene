@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#07050d" />
+    <meta name="description" content="PENGU1N — interactive 3D scene by Halcyon." />
+    <title>PENGU1N.exe — Halcyon</title>
+  </head>
+  <body>
+    <div id="app">
+      <div class="grain"></div>
+      <header class="topbar">
+        <a class="brand" href="https://github.com/Hillaryns" target="_blank" rel="noreferrer">H<span>_</span>PENGU1N</a>
+        <span class="status"><i></i> SYSTEM ONLINE</span>
+      </header>
+
+      <main>
+        <section class="copy">
+          <p class="eyebrow">INTERACTIVE 3D EXPERIMENT / 001</p>
+          <h1>PENGU<span>1N.</span></h1>
+          <p class="sub">A small corner of the internet built by <b>HALCYON</b>.</p>
+          <p class="hint">DRAG TO ROTATE <span>·</span> SCROLL TO ZOOM</p>
+          <div class="links">
+            <a href="https://github.com/Hillaryns" target="_blank" rel="noreferrer">GITHUB ↗</a>
+            <a href="https://www.chess.com/member/meowwww_wwwwwwwwwww" target="_blank" rel="noreferrer">CHESS.COM ↗</a>
+          </div>
+        </section>
+
+        <section class="scene-wrap" aria-label="Interactive 3D penguin scene">
+          <div class="forest" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          <div id="scene"></div>
+          <div class="scene-label"><span>FIG. 01</span><span>CHRISTMAS NIGHT WATCHER</span></div>
+          <div class="crosshair">+</div>
+        </section>
+      </main>
+
+      <footer>
+        <span>CODE × LEARN × IMPROVE</span>
+        <span>BUILT WITH THREE.JS</span>
+        <span>© HALCYON</span>
+      </footer>
+      <div class="loader" id="loader"><span></span> INITIALIZING SCENE...</div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
